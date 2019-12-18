@@ -1,0 +1,2 @@
+setCssToHead(["body{ color: #FFFFFF; font-size: ",[0,50],"; }\n",],undefined,{path:"./pages/list/list.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/list/list.wxml') } }));

@@ -1,0 +1,18 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "安卓期末大项目计划管理",
+				"backgroundColor": "#FF4949"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "安卓期末大项目计划管理",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#FF4949"
+	}
+	
+}

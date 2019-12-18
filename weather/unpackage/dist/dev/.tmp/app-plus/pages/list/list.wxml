@@ -1,0 +1,1 @@
+<view style="{{'width:'+('750upx')+';'+('height:'+(height)+';')+('background:'+('#211F44')+';')+('padding-top:'+('50upx')+';')}}"><block wx:for="{{citys}}" wx:for-item="item" wx:for-index="__i0__"><view data-event-opts="{{[['tap',[['changeCity',['$0'],[[['citys','',__i0__]]]]]]]}}" style="padding:10rpx 40rpx;" bindtap="__e">{{''+item.name+''}}</view></block></view>

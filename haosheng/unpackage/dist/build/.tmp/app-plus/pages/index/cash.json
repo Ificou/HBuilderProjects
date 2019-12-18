@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "backgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "prompt": "/components/prompt"
+  }
+}

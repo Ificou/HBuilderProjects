@@ -1,0 +1,97 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"tags": [
+				// 			{
+				// 				"tag": "font",
+				// 				"text": "设置",
+				// 				"position": {
+				// 					"width": "100%",
+				// 					"left": "320upx",
+				// 					"top": "0px"
+				// 				}
+				// 			},
+				// 			{
+				// 				"tag": "font",
+				// 				"text": "消息",
+				// 				"position": {
+				// 					"width": "100%",
+				// 					"left": "220upx",
+				// 					"top": "0upx"
+				// 				}
+				// 			}
+				// 		]
+				// 	}
+				// },
+				"backgroundColor": "#000"
+			}
+		},
+		{
+			"path": "pages/index/income",
+			"style": {
+				"navigationBarTitleText": "收益详情",
+				"backgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/index/cash",
+			"style": {
+				"navigationBarTitleText": "",
+				"backgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/index/rank",
+			"style": {
+				"navigationBarTitleText": "好省收入TOP榜",
+				"backgroundColor": "#FFFFFF"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFF",
+		"backgroundColorTop": "#FFF",
+		"navigationStyle": "custom"
+	}
+	// "tabBar": {
+	// 	"color": "#7A7E83",
+	// 	"selectedColor": "#E9352B",
+	// 	"borderStyle": "white",
+	// 	"backgroundColor": "#FFFFFF",
+	// 	"list": [{
+	// 			"pagePath": "",
+	// 			"iconPath": "static/haosheng/5-1.png",
+	// 			"selectedIconPath": "static/haosheng/5-1.png",
+	// 			"text": "首页"
+	// 		},
+	// 		{
+	// 			"pagePath": "",
+	// 			"iconPath": "static/haosheng/5-2.png",
+	// 			"selectedIconPath": "static/haosheng/5-2.png",
+	// 			"text": "好省圈"
+	// 		}, {
+	// 			"pagePath": "",
+	// 			"iconPath": "static/haosheng/5-3.png",
+	// 			"selectedIconPath": "static/haosheng/5-3.png",
+	// 			"text": "大牌秒杀"
+	// 		}, {
+	// 			"pagePath": "",
+	// 			"iconPath": "static/haosheng/5-4.png",
+	// 			"selectedIconPath": "static/haosheng/5-4.png",
+	// 			"text": "商城返利"
+	// 		}, {
+	// 			"pagePath": "pages/index/index",
+	// 			"iconPath": "static/haosheng/5-5.png",
+	// 			"selectedIconPath": "static/haosheng/5-5.png",
+	// 			"text": "我的"
+	// 		}
+	// 	]
+	// }
+}

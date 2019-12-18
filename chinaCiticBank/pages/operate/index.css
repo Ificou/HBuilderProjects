@@ -1,0 +1,47 @@
+*{margin:0px;padding:0px;font-family: "微软雅黑";box-sizing: border-box;}
+div{width:100%;}
+html,body{height:100%;}
+.title{color:#fff;background-color:#D5010D;height: 9%;font-size:2em;border-radius: 5px;cursor: pointer;}
+.content{height: 90%;padding-top:1%;}
+table{width: 100%;height: 100%;}
+.item_radius{border-radius: 5%;}
+
+.component_title{border-radius: 5% 5% 0 0;height: 12%;background: #D5010D;padding-top:5px;}
+.component_title div{background: #FFFFFF;height: 100%;border-left:0.09em solid #C7C7C7;border-right:0.09em solid #C7C7C7;
+										border-bottom: 0.09em solid #C7C7C7;}
+.component_content{margin-top:4%;border-radius: 0 0 5% 5%;height: 84%;background: #FFFFFF;padding-bottom:5px;border:0.09em solid #C7C7C7;padding: 4%;}
+.component_content .date{font-size: 0.7em;height: 10%;}
+.component_content .view{height:40%;border-bottom: 0.09em solid #C7C7C7;cursor: pointer;}
+.component_content .view .td1{width: 38%;}
+.component_content .view .td2{padding-left: 3%;}
+.component_content .view .td2 .div1{height: 50%;padding-top:10%;}
+.component_content .view .td2 .div1 .span1{font-size: 1em;font-weight: bold;}
+.component_content .view .td2 .div1 .span2{font-size: 0.6em;}
+.component_content .view .td2 .div2{height: 50%;font-size: 1.2em;}
+
+.component_chart{height:48%;margin-top: 2%;}
+.component_chart .td1{width: 50%;}
+.component_chart .td1 .div1{height: 50%;padding-top:10%;text-align: center;}
+.component_chart .td1 .div1 span{font-size: 1em;font-weight: bold;}
+.component_chart .td1 .div2{height: 50%;font-size: 1em;text-align: center;}
+.component_chart .td1 .div2 table td{width: 50%;}
+
+.dialog_buttom{background: #D5010D;border-radius: 5px;color:#FFFFFF;text-align: center;height: 40%;cursor: pointer;}
+.dialog_left_tr td{border-bottom: 2px solid #EBEBEB;}
+.dialog_font1{font-size: 1.2em;}
+.dialog_font2{font-size: 0.8em;}
+.dialog_font3{font-size: 1.4em;height: 50%;}
+.dialog_buttom table td{border: 0 solid #EBEBEB;}
+.dialog_border{border: 0.1em solid #E8E8E8}
+.dialog_tab{border: 0.1em solid #D5010D;height: 100%;width: 50%;float: left;background: #FFFFFF;cursor: pointer;}
+.dialog_tab table td{text-align: center;font-size: 1.8em;}
+.dialog_tab_selected{background: #D5010D;color: #FFFFFF;}
+.dialog_produce_tb{border-collapse: separate;}
+.dialog_produce_tb td{text-align: center;border-right: 0.1em solid #D3D3D3;border-bottom: 0.1em solid #D3D3D3;background: #FFFFFF;}
+.dialog_produce_tb tr:first-child td:first-child{border-top-left-radius: 15%;}
+.dialog_produce_tb tr:first-child td:last-child{border-top-right-radius: 15%;}
+.dialog_produce_tb tr:last-child td:first-child{border-bottom-left-radius: 15%;}
+.dialog_produce_tb tr:last-child td:last-child{border-bottom-right-radius: 15%;}
+.dialog_produce_tb tr:first-child td{background: #EFEFEF;}
+.dialog_produce_tb td:first-child{background: #EFEFEF;}
+

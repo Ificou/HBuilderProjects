@@ -1,0 +1,16 @@
+*{margin: 0;padding: 0;font-family: "microsoft yahei";box-sizing: border-box;}
+html,body{height: 100%;font-size: 8px;}
+	/*报表展示*/
+	.title{color:#fff;background-color:#D5010D;height: 9%;font-size:2em;border-radius: 5px;}
+	.report_title td,.report td{font-size: 1em;}
+	.report td{height:10%;}
+	.tr_head{font-weight: bold;background: #1DA7D8;text-align: center;}
+	.tr_title td{background: #B7ECFC;text-align: center;}
+	.tr_title .td1{text-align: left;}
+	.tr_color1{background: #F3F3F3;}
+	.tr_color2{background: #FEFEFE;}
+	.sheet{height: 5%;}
+	.sheet ul{height: 100%;}
+	.sheet li{float: left;list-style: none;border-bottom: 0.15em solid #D5010D;
+	font-size: 1em;margin-left: 1%;width: 10%;text-align: center;cursor: pointer;height: 100%;}
+	.sheet .selected{background: #D5010D;color: #FFFFFF;}

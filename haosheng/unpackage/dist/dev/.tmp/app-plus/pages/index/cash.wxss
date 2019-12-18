@@ -1,0 +1,38 @@
+
+page{
+	background: #FFFFFF;
+	font-size: 28rpx;
+}
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	width: 750rpx;
+}
+.center{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;
+}
+.red{color: #EA3E2D}
+.red_line{background: #EA3323;}
+/* 调整提现左侧字体大小 */
+.content_bold{font-weight: bold;font-size: 30rpx;}
+/* 调整提现左侧时间字体大小 */
+.content_time{font-size: 28rpx;}
+

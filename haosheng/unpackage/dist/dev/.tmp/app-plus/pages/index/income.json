@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "收益详情",
+  "backgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "prompt": "/components/prompt"
+  }
+}

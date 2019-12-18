@@ -1,0 +1,47 @@
+
+page{
+	background: #FFFFFF;
+	font-size: 24rpx;
+}
+.content {
+	/* 控制消息离顶部高度 增加或减少需要调整data（）中的高度相应值*/
+	margin-top: 75rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	width: 750rpx;
+}
+.center{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;
+}
+.rightArrow{margin-left: 10rpx;font-weight: bold;color: #C3C3C3;font-size: 30rpx;}
+.image_level{
+	height: 30rpx;width: 35rpx;
+}
+.level{height: 50rpx;line-height: 50rpx;padding: 0 20rpx;}
+/* 轮播图宽高 */
+.swiperSize{width: 705rpx;height: 105rpx;}
+/* 轮播图弧形尺寸 一般为高度的一半左右 */
+.swiperRadius{border-radius: 45rpx;}
+/* 调整预估金额字体粗细 (bold为最粗，由粗到细为 900 to 100)*/
+.moneySize{font-weight: bold;}
+/* 会员详情下面的小红字大小 */
+.detailSize{font-size: 18rpx;}
+
